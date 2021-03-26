@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.nav{
+	width: 100%;
+	display: flex;
+	padding-top: 30px;
+}
+.logo{
+	flex-basis: 20%;
+}
+.menu{
+	flex-basis: 60%;
+	}
+.menu ul li{
+    display: inline-block;
+    padding-top: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.btn{
+		flex-basis: 20%;
+	}
+.btn button{
+	padding: 16px 20px;
+	background-color: #ff6162;
+	color: white;
+	border-radius: 5px;
+	border-style: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+.btn button:hover{
+    background: #028997;
+    color: #f1f9df;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+
+}
+.mid{
+	width: 100%;
+	display: flex;
+	height: 80vh;
+	align-items: center;
+}
+.text{
+	flex-basis: 50%
+}
+.text h1{
+	font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: -10px;
+}
+.text p{
+
+	margin: 40px 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	color: #A2A4A5;
+}
+.text a i{
+	border: 2px solid #A2A4A5;
+    border-radius: 50%;
+    color: #A2A4A5;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+}
+.pic{
+	flex-basis: 50%
+}
+.pic:hover{
+    box-shadow: 15px 20px 20px 20px #cacbc8;
+    transition: 0.5s;
+}
+.title{
+	width: 100%;
+	text-align: center;
+}
+
+.title h1{
+	font-family: 'Cabin', sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 64px;
+
+}
+.title p{
+	
+    font-family: 'Dancing Script', cursive;
+    font-size: 21px;
+    color: #A2A4A5;
+}
+.picz{
+	display: flex;
+    margin-top: 40px; 
+}
+.dem{
+	margin-right: 30px;
+}
+.dem img:hover{
+	box-shadow: 15px 15px 30px 20px rgb(0 0 0 / 50%);
+	transition: 0.5s;
+}
+
+}
+.brdr{
+	
+	border-left: 2px solid black;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+.featuresnot{
+     width: 100%;
+}
+.idk{
+   width: 100%;
+	padding: 100px 0;
+	text-align: center;
+    padding: 350px 0 105px 0;
+}
+.idk h1{
+    font-family: 'Cabin', sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 64px;
+}
+.tour{
+    font-family: 'Dancing Script', cursive;
+    font-size: 21px;
+    color: #A2A4A5;
+    margin-bottom: 60px;
+}
+.feat{
+   width: 100%;
+   display: flex;
+   margin-bottom: 40px;
+   text-align: center;
+
+}
+.like{
+background-color: #F5F5F5;
+height: 264px;
+width: 370px;
+margin-right: 40px;
+border: 1px solid #F5F5F5;
+border-style: none;
+border-radius: 8px;
+padding: 0 20px;
+}
+.like:hover{
+ background: rgb(200,237,247);
+ background: radial-gradient(circle, rgba(200,237,247,0.865983893557423) 0%, rgba(249,183,255,0.5690651260504201) 100%);
+ text-shadow: 2px 2px 2px #b3f1f1;
+ letter-spacing: 2px;
+ }
+
+.like img{
+   margin-top: 20px;
+}
+
+
+.like h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.like p{
+  font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #A2A4A5;
+}
+.notat{
+ width: 100%;
+ display: flex;
+ margin-bottom: 40px;
+ text-align: center;
+}
+.not{
+background-color: #F5F5F5;
+height: 264px;
+width: 370px;
+border: 1px solid #F5F5F5;
+border-style: none;
+border-radius: 8px;
+margin-right: 40px;
+padding: 0 20px;
+}
+.not:hover{
+ background: rgb(200,237,247);
+ background: radial-gradient(circle, rgba(200,237,247,0.865983893557423) 0%, rgba(249,183,255,0.5690651260504201) 100%);
+ text-shadow: 2px 2px 2px #b3f1f1;
+ letter-spacing: 2px;
+}
+.not img{
+  margin-top: 20px;
+}
+.not h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.not p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #A2A4A5;
+}
+.footer{
+    height: 520px;
+    width: 100%;
+    text-align: center;
+    background-color: #292640;
+    padding-bottom: 50px;
+}
+.footer h1{
+    line-height: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 54px;
+    padding-top: 120px;
+
+}
+.footer button{
+    padding: 16px 20px;
+    background-color: #ff6162;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.footer img{
+    margin-top: 50px;
+}
+.footer button:hover{
+     background: #028997;
+    color: #f1f9df;
+}
